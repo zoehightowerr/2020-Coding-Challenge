@@ -52,7 +52,7 @@ def increase_score():
             team["score"] += 1
 
     #added, loops through and swaps to be sorted if needed
-    #results in non-increasing order of scores
+    #resulting in non-increasing order of scores
     for i in range(len(scoreboard)):
         for j in range(i + 1, len(scoreboard)):
             if scoreboard[i]['score'] < scoreboard[j]['score']:
